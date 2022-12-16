@@ -1,0 +1,27 @@
+.grid{
+    height:580px;
+    width: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+ 
+}
+
+
+.grid div{
+    height:70px;
+    width:70px;
+    background-size: cover;
+    
+}
+.red-line {
+    /* Set the line color to red */
+    background-color: red;
+    /* Set the line width and height */
+    width: 2px;
+    height: 100%;
+    /* Set the line to be in the absolute center of the parent element */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
